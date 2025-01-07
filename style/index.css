@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    grid-template-areas:
+    ". header ."
+    ". main ."
+    ". footer .";
+}
+
+.header {
+    grid-area: header;
+    place-self: center center;
+}
+
+.main {
+    grid-area: main;
+    place-self: center center;
+}
+
+.footer {
+    grid-area: footer;
+    place-self: center center;
+}
