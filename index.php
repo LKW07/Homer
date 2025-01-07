@@ -11,9 +11,13 @@
     <div class="header">
         <h1>Homer</h1>
     </div>
-    <div class="main"></div>
-    <div class="footer">
-        <p>&copy 2025 Leander Weiss</p>
+    <div class="main">
+        <form action="views/story.php" method="post">
+            <input type="submit" value="Story">
+        </form>
     </div>
+    <?php
+        include "modules/footer.php";
+    ?>
 </body>
 </html>

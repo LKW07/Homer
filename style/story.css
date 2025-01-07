@@ -15,13 +15,10 @@ body {
 .main {
     grid-area: main;
     place-self: center center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
 }
 
-.main input[type=submit] {
-    padding: 60px;
+.main table, th, td {
+    border: 2px solid black
 }
 
 .footer {
